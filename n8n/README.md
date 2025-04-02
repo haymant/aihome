@@ -19,3 +19,7 @@ SSL_EMAIL=dev@lizhao.net
 ```bash
 docker compose up -d
 ```
+
+## DNS in container
+
+At beginning my container failed to connect to Internet service due to DNS errors. Not sure whether it's relevant or not, to update `/etc/docker/daemon.json` to remove `"bridge": false`.

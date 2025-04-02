@@ -5,8 +5,8 @@
       "name": "Run Vercel AI MCP Dev Server",
       "type": "node-terminal",
       "request": "launch",
-      "command": "npm run dev",
-      "cwd": "${workspaceFolder}/mcp-on-vercel"
+      "command": "vercel dev",
+      "cwd": "${workspaceFolder}/mcp"
     }
   ]
 }
